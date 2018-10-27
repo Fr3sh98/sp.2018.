@@ -1,6 +1,6 @@
 ## Notatki do JP i SP
 
-### Bash, drugie podejście
+### Bash, trzecie podejście
 
 * [the art of command line](https://github.com/jlevy/the-art-of-command-line/blob/master/README.md).
 
