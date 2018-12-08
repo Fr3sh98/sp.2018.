@@ -2,13 +2,19 @@
 
 //wypisz funckje w kilku jezykach
 
+void wczytaj_dane(a, b) {
+
+}
+
+
 int main()
 {
-    int x, y;
+    int a, b;
 
-    printf("podaj x y: ")
-    scanf("%d %d", &x, &y);
+    wczytaj_dane(a, b)
+    printf("podaj a b:");
+    scanf("%d %d", &a, &b);
 
-    printf("wyniki czterech dzialan na x = %d, %d\n", x, y);
-    printf("x+ y= %d\n", x + y);
+    printf("wyniki czterech dzialan na x = %d, %d\n", a, b);
+    printf("x+ y= %d\n", a + b);
 }
