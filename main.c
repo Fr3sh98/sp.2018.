@@ -1,6 +1,14 @@
 #include <stdio.h>
 
-int main ()
+//wypisz funckje w kilku jezykach
+
+int main()
 {
-    print ("hello world\n");
-}    
+    int x, y;
+
+    printf("podaj x y: ")
+    scanf("%d %d", &x, &y);
+
+    printf("wyniki czterech dzialan na x = %d, %d\n", x, y);
+    printf("x+ y= %d\n", x + y);
+}
