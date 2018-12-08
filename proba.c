@@ -1,12 +1,21 @@
+
 #include <stdio.h>
-#include <math.h>
+
+void print_pattern(int ile_gwiazdek, char *pattern)
+{
+    for (int i = 0; i < ile_gwiazdek; i++)
+    {
+        printf("%s", pattern);
+    }
+    printf("\n");
+}
 
 int main()
 {
-  double num = 6, squareRoot;
-
-  squareRoot = sqrt(num);
-  printf("Square root of %lf =  %lf", num, squareRoot);
-
-  return 0;
+    int n = 4;
+    for (int i = 0; i < n; i++)
+    {
+        print_pattern(8, " *");
+        print_pattern(8, "* ");
+    }
 }
