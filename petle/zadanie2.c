@@ -1,4 +1,4 @@
-
+//2. Napisz program wyświetlający poniższą szachownicę:
 #include <stdio.h>
 
 void print_pattern(int ile_gwiazdek, char *pattern)
