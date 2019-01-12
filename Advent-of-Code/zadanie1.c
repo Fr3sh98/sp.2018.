@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 void f1() {
     //deklaracja oraz otwarcie pliku z danymi
