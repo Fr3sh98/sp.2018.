@@ -7,9 +7,7 @@
 
 #define size 6
 
-int main()
-{
-
+void f1() {
   float tablica[size];
 
   printf("Podaj 6 elementow tablicy!\n");
@@ -34,4 +32,8 @@ int main()
     }
   }
   printf("min = %f\nmax = %f\n", min, max);
+}
+int main() {
+    f1();
+    return 0;
 }
