@@ -1,4 +1,8 @@
 #include <stdio.h>
+<<<<<<< HEAD
+=======
+
+>>>>>>> b3eb63ce8c068591a27fa341405412c272b97294
 void f1() {
     //deklaracja oraz otwarcie pliku z danymi
     FILE *file = fopen("data1", "r");
@@ -28,7 +32,7 @@ void f1() {
     
     //wypeĹ‚nienie tablicy zerami
     int i = 0;
-    for (i; i < 200000; i++)
+    for (; i < 200000; i++)
         numberFound[i] = 0;
     
     i = 0;
