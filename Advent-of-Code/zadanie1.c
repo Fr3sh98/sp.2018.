@@ -1,5 +1,6 @@
 #include <stdio.h>
-void day1() {
+
+void f1() {
     //deklaracja oraz otwarcie pliku z danymi
     FILE *file = fopen("data1", "r");
     //buffor ktory jest w stanie przyjÄ…Ä‡ do 1000 znakĂłw
@@ -28,7 +29,7 @@ void day1() {
     
     //wypeĹ‚nienie tablicy zerami
     int i = 0;
-    for (i; i < 200000; i++)
+    for (; i < 200000; i++)
         numberFound[i] = 0;
     
     i = 0;
