@@ -1,5 +1,5 @@
 #include <stdio.h>
-void day1() {
+void f1() {
     //deklaracja oraz otwarcie pliku z danymi
     FILE *file = fopen("data1", "r");
     //buffor ktory jest w stanie przyjÄ…Ä‡ do 1000 znakĂłw
@@ -49,7 +49,7 @@ void day1() {
     
 }
 int main() {
-    day1();
+    f1();
     return 0;
 }
 
