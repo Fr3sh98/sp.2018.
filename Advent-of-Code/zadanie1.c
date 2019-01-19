@@ -50,7 +50,7 @@ void f1() {
     
 }
 int main() {
-    day1();
+    f1();
     return 0;
 }
 
