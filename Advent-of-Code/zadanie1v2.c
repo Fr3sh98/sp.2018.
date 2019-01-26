@@ -20,7 +20,7 @@ void resetTable() {
      numberFound[i] = 0;
 }
 
-void sum() {
+void addition() {
   FILE *file = fopen("data1", "r");//deklaracja oraz otwarcie pliku z danymi
   int a = 0;//zmienna przechowujaca suma liczb wejścoiwych
   char currentline[1000];//buffor ktory jest w stanie przyjąć do 1000 znakków
@@ -53,6 +53,6 @@ void compare() {
 }
 
 void f1() {
-  sum();
+  addition();
   compare();
 }
