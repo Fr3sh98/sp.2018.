@@ -44,7 +44,7 @@ void f1b() {
   while (!found) { //petla dzialajaca do momentu znalezienia wartosci powtarzajacej sie 2 razy
      b += lines[i];
      numberFound[b + 100000]++;
-     if (numberFound[b + 100000] == 2) { //jezeli liczba b wystapila 2 razy tp wypisujemy ja i wychodzimy z petli przez zmiana zmiennej found na 1
+     if (numberFound[b + 100000] == 2) { //jezeli liczba b wystapila 2 razy to wypisujemy ja i wychodzimy z petli przez zmiana zmiennej found na 1
        printf(" b. %d\n", b);
        found = 1;
         }
