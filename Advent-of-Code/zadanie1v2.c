@@ -20,7 +20,7 @@ void resetTable() {
      numberFound[i] = 0;
 }
 
-void f1a() {
+void sum() {
   FILE *file = fopen("data1", "r");//deklaracja oraz otwarcie pliku z danymi
   int a = 0;//zmienna przechowujaca suma liczb wejścoiwych
   char currentline[1000];//buffor ktory jest w stanie przyjąć do 1000 znakków
@@ -36,7 +36,7 @@ void f1a() {
   printf("1) a. %d", a);
 }
 
-void f1b() {
+void compare() {
   int b = 0;//zmienna przechowujaca suma liczb wejścoiwych dla 2 całości z zadania
   int found = 0;
   int i = 0;
@@ -53,6 +53,6 @@ void f1b() {
 }
 
 void f1() {
-  f1a();
-  f1b();
+  sum();
+  compare();
 }
