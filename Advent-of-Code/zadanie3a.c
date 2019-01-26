@@ -1,10 +1,11 @@
+// Advent of Code Day 3
+
 #include <stdio.h>
 
-//deklaracja tablicy 1000x1000 potrzebej do zadnia nr. 3
+/*Deklaracja tablicy 1000x1000 potrzebej do zadnia nr. 3 Zastosowałem zmienna
+glbalną pownieważ przy próbie zastsowania jej jako lokalnej wychodził bład
+buffora*/
 int fabric[1000][1000];
-//tablica do zliczania znalezionych liczb
-int numberFound[200000];
-const int letters = 'z' - 'a' + 1; //ilość liter w alfabecie angielskim
 
 void part1();
 void part2();
