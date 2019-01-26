@@ -15,7 +15,7 @@ int main() {
     return 0;
 }
 
-void wyzerujTabliceZnalezionych() {
+void resetTable() {
     for (int i = 0; i < 200000; i++)
         numberFound[i] = 0;
 }
@@ -40,7 +40,7 @@ void f1b() {
     int b = 0;//zmienna przechowujaca suma liczb wejścoiwych dla 2 całości z zadania
     int found = 0;
     int i = 0;
-    wyzerujTabliceZnalezionych();
+    resetTable();
     while (!found) { //petla dzialajaca do momentu znalezienia wartosci powtarzajacej sie 2 razy
         b += lines[i];
         numberFound[b + 100000]++;
