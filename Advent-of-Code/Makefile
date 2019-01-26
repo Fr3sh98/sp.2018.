@@ -2,4 +2,4 @@ CFLAGS = -g -Wall -std=c11
 LDLIBS = -lm
 
 clean :
-	rm -f zadanie1 zadanie2 zadanie3a  zadanie1v2
+	rm -f zadanie2 zadanie3  zadanie1v2
