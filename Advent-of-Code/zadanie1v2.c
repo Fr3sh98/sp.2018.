@@ -25,8 +25,7 @@ void f1a() {
     int a = 0;//zmienna przechowujaca suma liczb wejścoiwych
     char currentline[1000];//buffor ktory jest w stanie przyjąć do 1000 znakków
 
-    while (fgets(currentline, sizeof(currentline), file) !=
-           NULL) { //pętla przechodząca przez plik i wczytujaca wszystkie linie az do konca pliku
+    while (fgets(currentline, sizeof(currentline), file) !=NULL) { //pętla przechodząca przez plik i wczytujaca wszystkie linie az do konca pliku
         int n = 0;
         sscanf(currentline, "%d", &n);//wczytanie lini z pliku do zmiennej n
         a += n; //dodawanie zmiennej n do zmiennej a
